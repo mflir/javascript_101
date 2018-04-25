@@ -2,7 +2,7 @@
 
     Dado el siguiente array de meses del año:
 
-  */  var meses = [
+ var meses = [
         'Enero', // índice `0`
         'Febrero',
         'Marzo',
@@ -16,18 +16,23 @@
         'Noviembre',
         'Diciembre'  // índice 11, equivalente a `meses.length - 1`
     ];
-
+/*
    /* Escribir un programa que:
         Declare y asigne una variable que tenga como valor el número del mes de tu cumpleaños.
         Muestre por terminal el nombre del mes de tu cumpleaños.
 
-*/
-var miCumpleaños = [meses.length -1];
+RESPUESTA 
+
+var miCumpleaños = meses[11];
     console.log(miCumpleaños);
 
+
+*/
+
+/*
    // Dado los siguientes arrays:
 
-   /* var meses = [
+ var meses = [
         'Enero',
         'Febrero',
         'Marzo',
@@ -54,19 +59,49 @@ var miCumpleaños = [meses.length -1];
         'Plutón'
     ];
 
-        Mostrar por la terminal la cantidad de elementos que tiene cada uno.
+ /*       Mostrar por la terminal la cantidad de elementos que tiene cada uno.
         Mostrar por la terminal el último elemento de cada array (usando la propiedad length que tienen los arrays).
         Mostrar el cuarto planeta por pantalla (Marte).
 
-    Dado el siguiente array de nombres:
+
+RESPUESTAS
+
+console.log(meses.length + planetas.length);
+console.log(meses[meses.length-1]);
+console.log(planetas[planetas.length-1]);
+
+console.log(planetas[3]);
+
+*/
+
+
+/*
+
+
+//    Dado el siguiente array de nombres:
 
     var nombres = ['Sofía', 'Abril'];
     var apellidos = ['Rodriguez', 'López'];
 
-        Mostrar por la terminal el primer elemento de cada array.
-        Crear un nuevo array llamado nombreCompleto que contenga el segundo elemento del array nombres y el primer elemento del array apellidos. Mostrar el nuevo array por la terminal.
+  //      Mostrar por la terminal el primer elemento de cada array.
+  //      Crear un nuevo array llamado nombreCompleto que contenga 
+  //    el segundo elemento del array nombres y el primer elemento del array apellidos. 
+  //    Mostrar el nuevo array por la terminal.
 
-    Dado el siguiente array de participantes de una carrera y considerando que están ordenados en base al orden de llegada (el primer elemento es el primero en haber llegado):
+
+
+console.log(nombres[0]);
+console.log(apellidos[0]);
+
+var nombreCompleto = [nombres[1] , apellidos [0]];
+console.log(nombreCompleto);
+
+
+ /*   Dado el siguiente array de participantes de una carrera y considerando que están ordenados en base al orden de llegada (el primer elemento es el primero en haber llegado):
+
+
+
+
 
     var corredores = [
         'Margarita', // ganó la carrera
@@ -78,7 +113,15 @@ var miCumpleaños = [meses.length -1];
         'Julian' // último 🙁
     ];
 
-        Mostrar por la terminal los 3 primeros en llegar a la meta usando índices numéricos.
-        Crear un nuevo array llamado losUltimos que contenga los 2 últimos corredores en llegar (usando la propiedad length que tienen los arrays). Mostrar este nuevo array por la terminal.
-*/
+//        Mostrar por la terminal los 3 primeros en llegar a la meta usando índices numéricos.
+//        Crear un nuevo array llamado losUltimos que contenga los 2 últimos corredores en 
+//        llegar (usando la propiedad length que tienen los arrays). Mostrar este nuevo array 
+//        por la terminal.
+
+console.log(corredores[0] , corredores[1], corredores[2]);
+var losUltimos = [corredores[corredores.length-1] , corredores[corredores.length-2]];
+console.log(losUltimos);
+
+
+
 
